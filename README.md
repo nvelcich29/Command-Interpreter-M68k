@@ -1,7 +1,7 @@
 # Command-Interpreter-M68k
 
 ## Overview
-The goal of the project was to build a monitor program to run on a "SANPER1" educational computer board built around a Motorola 68k microprocessor.  This program can be simulated using [EASY68k](http://www.easy68k.com/) simulator software.  The monitor recognizes which command is entered and then branches to subroutine for executing this command. And when there is no match, it displays an error message. 
+The goal of the project was to build a monitor program to run on a "SANPER1" educational computer board built around a Motorola 68k microprocessor.  This program can be simulated using [EASY68k](http://www.easy68k.com/) simulator software.  The monitor recognizes which command is entered and then branches to subroutine for executing this command.  If there is no match, it displays an error message. 
 ![Command Interpreter Flowchart](https://user-images.githubusercontent.com/46805337/129077550-f0ad7cb2-144d-4640-b21a-b87b14be6263.png)
 
 This monitor program is able to perform basic debugging functions:
